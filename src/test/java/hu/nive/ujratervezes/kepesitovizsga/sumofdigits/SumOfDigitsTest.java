@@ -9,8 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SumOfDigitsTest {
 
     @Test
-    public void getSumOfDigits() {
+    void getSumOfDigits() {
         assertEquals(9, new SumOfDigits().getSumOfDigits(new Random(1)));
     }
-
 }
