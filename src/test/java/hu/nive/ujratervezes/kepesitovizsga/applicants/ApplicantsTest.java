@@ -25,7 +25,7 @@ class ApplicantsTest {
     }
 
     @Test
-    public void testListByApplicantsPersonal() {
+    void testListByApplicantsPersonal() {
         generator = new ListByApplicantsPersonal();
         List<Applicant> applicants = generator.getListFromDatabase(dataSource);
 
@@ -38,7 +38,7 @@ class ApplicantsTest {
     }
 
     @Test
-    public void testListBySkills() {
+    void testListBySkills() {
         generator = new ListBySkills();
         List<Applicant> applicants = generator.getListFromDatabase(dataSource);
 
