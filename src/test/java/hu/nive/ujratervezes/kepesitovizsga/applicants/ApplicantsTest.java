@@ -10,6 +10,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ApplicantsTest {
+
     private ApplicantListGenerator generator;
     private MysqlDataSource dataSource = new MysqlDataSource();
 
